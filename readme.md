@@ -12,21 +12,21 @@
 
 # Why Lite JS Utils?
 
-It is common in our JS / TS applications to install complete packages (moment, lodash ...) just to use some methods. The lite-js-utils project was created precisely to meet the need to install large packages just for the use of common methods. See the [full docs](http://docs) for a list of available methods.
+It is common in our JS / TS applications to install complete packages (moment, lodash ...) just to use some methods. The lite-js-utils project was created precisely to meet the need to install large packages just for the use of common methods. See the [full docs](https://lite-js-utils.herokuapp.com/) for a list of available methods.
 
 
 # Readme Contents
 
-* [Features/Docs](#rocket-features)
-* [Installation](#construction_worker-installation)
-* [Issues](#bug-issues)
-* [Contributing](#tada-contributing)
-* [License](#closed_book-license)
+* [Docs](#docs)
+* [Installation](#instalation)
+* [Issues](#issues)
+* [Contributing](#contributing)
+* [License](#licence)
 
 
-# Features/Docs
+# Docs
 
-You can view the full documentation [here](https://docs).
+You can view the full documentation [here](https://lite-js-utils.herokuapp.com/).
 
 # Installation
 
