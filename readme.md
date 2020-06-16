@@ -4,10 +4,10 @@
 
 <p align="center">
   <h1 align="center">Lite JS Utils</h1>
-  <h3>Lot of methods to use in JS/TS applications.</h3>
+  <h3 align="center">Lot of methods to use in JS/TS applications.</h3>
 </p>
 
-
+<br /> <br/>
 
 
 # Why Lite JS Utils?
