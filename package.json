@@ -1,0 +1,44 @@
+{
+  "name": "lite-js-utils",
+  "description": "Lot of methods to use in JS/TS applications.",
+  "version": "0.1.0",
+  "author": "Wesley Monaro",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesleymonaro/lite-js-utils.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --watchAll",
+    "dev:server": "ts-node-dev --inspect --transpileOnly --ignore-watch node_modules src/index.ts",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build",
+    "docz:serve": "docz build && docz serve"
+  },
+  "dependencies": {
+    "docz": "^2.3.1",
+    "moment": "^2.26.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "@types/moment": "^2.13.0",
+    "@typescript-eslint/eslint-plugin": "^2.29.0",
+    "@typescript-eslint/parser": "^2.29.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.3",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.4",
+    "ts-jest": "^26.1.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typedoc": "^0.17.7",
+    "typescript": "^3.8.3"
+  }
+}
