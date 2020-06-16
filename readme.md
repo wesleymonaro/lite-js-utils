@@ -1,16 +1,14 @@
 <p align="center">
-   <img src=".github/logo.png" width="200"/>
+   <img src=".github/logo.png"/>
 </p>
 
-# lite-js-utils
+<p align="center">
+  <h2 align="center">Lite JS Utils</h2>
+</p>
 
 
 Lot of methods to use in JS/TS applications.
 
-[![Languages](https://img.shields.io/github/languages/count/wesleymonaro/lite-js-utils?color=%23D54F44&style=flat-square)](#)
-[![Stars](https://img.shields.io/github/stars/wesleymonaro/lite-js-utils?color=D54F44&style=flat-square)](https://github.com/wesleymonaro/lite-js-utils/stargazers)
-[![Forks](https://img.shields.io/github/forks/wesleymonaro/lite-js-utils?color=%23D54F44&style=flat-square)](https://github.com/wesleymonaro/lite-js-utils/network/members)
-[![Contributors](https://img.shields.io/github/contributors/wesleymonaro/lite-js-utils?color=D54F44&style=flat-square)](https://github.com/wesleymonaro/lite-js-utils/graphs/contributors)
 
 # Why Lite JS Utils?
 

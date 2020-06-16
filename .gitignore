@@ -6,3 +6,4 @@ docs
 yarn.lock
 package-lock.json
 test.js
+.DS_Store
