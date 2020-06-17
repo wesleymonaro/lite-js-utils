@@ -1,0 +1,22 @@
+---
+name: validateCPF()
+route: /validateCPF
+---
+
+# validateCPF()
+
+Check if a string is a valid CPF.
+
+## Params
+
+Just pass the CPF as param string. Accepts a string with special characters.
+
+```js
+import { validateCPF } from 'lite-js-utils';
+
+validateCPF('111.111.111-11');
+```
+
+## Response
+
+This method returns a boolean. If CPF is valid, returns `true`.

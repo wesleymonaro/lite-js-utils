@@ -1,0 +1,22 @@
+---
+name: validateCNPJ()
+route: /validateCNPJ
+---
+
+# validateCNPJ()
+
+Check if a string is a valid CNPJ.
+
+## Params
+
+Just pass the CPF as param string. Accepts a string with special characters
+
+```js
+import { validateCNPJ } from 'lite-js-utils';
+
+validateCNPJ('11.111.111-0001/11');
+```
+
+## Response
+
+This method returns a boolean. If CPF is valid, returns `true`.

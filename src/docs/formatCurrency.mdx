@@ -1,0 +1,31 @@
+---
+name: formatCurrency()
+route: /formatCurrency
+---
+
+# formatCurrency()
+
+Returns the formatCurrency element from array.
+
+## Params
+
+This method accept this params:
+
+- value: number (required) - Value to parse;
+- showSignal: boolean (optional, default is true) - Must return the money signal;
+- signal: string (optional, default is 'R$') - Specify the type signal;
+- chunkDelimiter: string (optional, default is '.') - Thousand separator;
+- decimalDelimiter: string (optional, default is ',') - Decimal separator
+- decimalLength: number (optional, default is 2) - Decimal length;
+
+```js
+import { formatCurrency } from 'lite-js-utils';
+
+formatCurrency(10.5); // returns R$10,50
+formatCurrency(10.5, true, '$'); // return $10,50
+formatCurrency(1000.5, true, 'R$', '.', ',', 3); // return R$1.000,500
+```
+
+## Response
+
+This test will return `2` as value.
